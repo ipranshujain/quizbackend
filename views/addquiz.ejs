@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+    <form action="/addquiz" method="POST">
+        <input type="text" name="question" placeholder="Question">
+        <label id="options">Options</label>
+        <input type="text"  name="options[0]" placeholder="Option 0"/>
+        <input type="text"  name="options[1]" placeholder="Option 1"/>
+        <input type="text"  name="options[2]" placeholder="Option 2"/>
+        <input type="text"  name="options[3]" placeholder="Option 3"/>
+        <input type="text" name="ca" placeholder="Correct Answer"/>
+        <input type="text" name="difficulty" placeholder="Difficulty"/>
+        <input type="text" name="tag" placeholder="Tag"/>
+        <button>Add Quiz</button>
+    </form>
+</body>
+</html>
